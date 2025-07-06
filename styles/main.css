@@ -35,6 +35,10 @@ nav .nav-right-section a {
     color: #000;
 }
 
+nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+
 nav .nav-right-section .menu-icon {
     background-image: url(../img/menu-icon.svg);
     background-repeat: no-repeat;
@@ -138,4 +142,43 @@ main .main-buttons button:hover {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px #000001;
     color: #222;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px; 
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+}
+
+footer .footer-left {
+    justify-content: left;
+}
+
+footer .footer-right {
+    justify-content: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
