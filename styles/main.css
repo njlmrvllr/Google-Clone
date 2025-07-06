@@ -34,3 +34,17 @@ nav .nav-right-section a {
     margin-right: 10px;
     color: #000;
 }
+
+nav .nav-right-section .menu-icon {
+    background-image: url(../img/menu-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
